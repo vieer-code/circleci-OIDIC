@@ -1,5 +1,5 @@
 
-[YouTube video](https://www.youtube.com/watch?v=j9QUHQmEk7c)
+[YouTube video](https://youtu.be/9MU0VYfgo-M)
 
 
 This guide will walk you through the process of setting up an OIDC Provider in AWS IAM for CircleCI using Terraform.
@@ -20,7 +20,7 @@ To set up an OIDC Provider, you need your CircleCI Organization ID. Follow these
 2. Navigate to the Organization Settings.
 3. Look for the organization ID in the URL or in the settings.
 
-For more detailed instructions, watch this [YouTube video](https://www.youtube.com/watch?v=j9QUHQmEk7c).
+For more detailed instructions, watch this [YouTube video](https://youtu.be/9MU0VYfgo-M).
 
 
 ### 3. Add AWS Oidic Provider 
@@ -61,4 +61,4 @@ your Trust policy will be
 }
 ```
 
-For more detailed instructions, watch this [YouTube video](https://www.youtube.com/watch?v=j9QUHQmEk7c).
+For more detailed instructions, watch this [YouTube video](https://youtu.be/9MU0VYfgo-M).
