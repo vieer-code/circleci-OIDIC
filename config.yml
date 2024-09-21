@@ -1,0 +1,21 @@
+version: 2.1
+
+orbs:
+  aws-cli: circleci/aws-cli@4.1.1
+jobs:
+  build-push:
+    docker:
+      - image: cimg/aws:2022.06
+    steps:
+      - checkout
+      - aws-cli/setup:
+          role_arn: "arn:aws:iam::654654311376:role/CIRCLE_CI_OIDIC"
+          profile_name: default
+      - run:
+          name: Check S3 credentials
+          command: aws s3 ls --region us-east-1
+workflows:
+  version: 2
+  build_and_push:
+    jobs:
+      - build-push
