@@ -10,7 +10,7 @@ jobs:
 
       
       - aws-cli/setup:
-          role_arn: 
+          role_arn: arn:aws:iam::654654311376:role/CIRCLE_OPENID
           profile_name: default
 
           
